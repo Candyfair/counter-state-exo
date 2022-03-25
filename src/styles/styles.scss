@@ -1,0 +1,54 @@
+h1, h2 {
+  font-weight: 300;
+}
+
+.container {
+  width: 70%;
+  margin: 60px auto;
+  text-align: center;
+  background-color: hsl(200 80% 90%);
+  padding: 20px;
+  line-height: 2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  border-radius: 15px;
+}
+
+.title {
+  background-color: hsl(337, 79%, 61%);
+  border-radius: 5px;
+  padding: 5px 20px;
+  color:hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  // display: inline-block;
+  margin: 0 auto;
+  margin-top: -50px;
+  width: 350px;
+  text-align: center;
+}
+
+.input {
+  width: 300px;
+}
+
+
+.button {
+  margin: 8px;
+  background-color: hsl(337, 79%, 61%);
+  border-radius: 5px;
+  border: none;
+  color:	hsl(0, 0%, 100%);
+  padding: 3px 15px;
+  
+  &:hover {
+    background-color: hsl(337, 79%, 73%);
+  }
+  
+  &:active {
+    background-color: hsl(337, 79%, 61%);
+  }
+}
+
+.clock {
+  display: inline;
+}
